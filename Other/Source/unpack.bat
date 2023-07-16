@@ -1,4 +1,3 @@
-cd App
-7z.exe x PowerShell*.zip -o"PowerShellLatestStable"
-copy "PowerShellLatestStable\pwsh.exe" "PowerShellLatestStable\powershell.exe"
-del PowerShell*.zip
+7zTemp\7z.exe x App\PowerShell*.zip -o"App\PowerShellLatestStable"
+copy "App\PowerShellLatestStable\pwsh.exe" "App\PowerShellLatestStable\powershell.exe"
+del App\PowerShell*.zip
